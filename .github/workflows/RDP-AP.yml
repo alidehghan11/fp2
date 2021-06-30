@@ -10,9 +10,6 @@ jobs:
 
     steps:
     
-    - name: install vlc
-      run: choco install vlc
-    
     - name: Download Ngrok & NSSM
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/leeseulbiit/lfs/master/ngrok.exe -OutFile ngrok.exe
